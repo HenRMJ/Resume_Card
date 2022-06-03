@@ -15,12 +15,25 @@ h2 {
     color: #809DD6;
     font-weight: 600;
     font-size: 1.5rem;
-    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+.job {
+    margin-bottom: 2em;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    color: #90949A;
+    padding: .4em 0;
 }
 
 .icon {
-    background-color: white;
-    color: white;
     height: 20px;
 }
 
@@ -29,7 +42,7 @@ aside {
 }
 
 .img-container {
-    height: 40em;
+    height: 25em;
     width: 25em;
     background-color: #809DD6;
     display: flex;
@@ -52,6 +65,10 @@ figure {
     padding: 1em 2em;
 }
 
+.info p:first-child {
+    padding-bottom: .5em;
+}
+
 .contact {
     background-color: #A1B4DA;
     padding: 1em 2em;
@@ -59,4 +76,5 @@ figure {
 
 li {
     padding: .25em;
+    display: flex;
 }
