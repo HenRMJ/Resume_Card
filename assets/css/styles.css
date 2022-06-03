@@ -22,7 +22,7 @@ h3 {
     font-weight: 700;
 }
 
-.job {
+.job:first-of-type {
     margin-bottom: 2em;
 }
 
