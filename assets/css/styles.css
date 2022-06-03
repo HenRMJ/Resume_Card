@@ -1,17 +1,31 @@
 main {
     display: flex;
     font-family: sans-serif;
+    padding: 2em;
+}
+
+.left {
+    padding-right: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h2 {
     color: #809DD6;
     font-weight: 600;
+    font-size: 1.5rem;
+    padding-bottom: .5em;
 }
 
 .icon {
     background-color: white;
     color: white;
     height: 20px;
+}
+
+aside {
+    color: white;
 }
 
 .img-container {
@@ -21,7 +35,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: white;
 }
 
 figure {
@@ -41,4 +54,9 @@ figure {
 
 .contact {
     background-color: #A1B4DA;
+    padding: 1em 2em;
+}
+
+li {
+    padding: .25em;
 }
